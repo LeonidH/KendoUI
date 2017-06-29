@@ -29,3 +29,5 @@ function onDrop(e) {
     e.draggable.destroy();
     e.draggable.element.remove();
 }
+
+console.log($('#parent').children().index($('#orangeArea')));
