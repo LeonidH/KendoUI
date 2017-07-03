@@ -1,14 +1,48 @@
-  .orange, .purple{
-    width: 50px;
-    height: 50px;
-    border: 2px solid green;
-    margin: 5px;
-  }
-  #orangeArea, #purpleArea {
-    width: 200px;
-    height: 200px;
-    border: 2px solid green;
-    margin: 5px;
-  }
-  .orange, #orangeArea { background-color: orange; }
-  .purple, #purpleArea { background-color: purple; }
+/*Draggable*/
+
+
+/*@import 'modules/Draggable/_axis';*/
+/*@import 'modules/Draggable/_autoScroll';*/
+/*@import 'modules/Draggable/_container';*/
+/*@import 'modules/Draggable/_cursorOffset';*/
+/*@import 'modules/Draggable/_distance';*/
+/*@import 'modules/Draggable/_hint';*/
+/*@import 'modules/Draggable/_filter';*/
+/*@import 'modules/Draggable/_group';*/
+/*@import 'modules/Draggable/_holdToDrag';*/
+/*@import 'modules/Draggable/_cancelHold';*/
+/*@import 'modules/Draggable/_ignore';*/
+/*@import 'modules/Draggable/_drag';*/
+/*@import 'modules/Draggable/_dragcancel';*/
+/*@import 'modules/Draggable/_dragend';*/
+/*@import 'modules/Draggable/_dragstart';*/
+
+
+
+/*DropTarget*/
+/*@import 'modules/DropTarget/_Group';*/
+/*@import 'modules/DropTarget/_DestroyGroup';*/
+/*@import 'modules/DropTarget/_DragEnter';*/
+/*@import 'modules/DropTarget/_DragLeave';*/
+/*@import 'modules/DropTarget/_Drop';*/
+
+/*DropTargetArea*/
+
+/*@import 'modules/DropTargetArea/_Group';*/
+/*@import 'modules/DropTargetArea/_Filter';*/
+/*@import 'modules/DropTargetArea/_DragEnter';*/
+/*@import 'modules/DropTargetArea/_DragLeave';*/
+@import 'modules/DropTargetArea/_Drop';
+
+
+/*@import 'modules/replace';*/
+
+
+/*.droptarget {
+    float: left; 
+    width: 100px; 
+    height: 35px;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}*/

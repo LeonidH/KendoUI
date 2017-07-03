@@ -20,16 +20,198 @@
 
 <body>
 
-    <input id="combobox" style="width: 100px;" />
+    <!--Pure On Drop-->
+    <!--<p>This example uses the HTML DOM to assign "ondragstart", "ondragover" and "ondrop" events to the document object.</p>
 
-<div class="" id="parent">
-    <div class="orange"></div>
+<p>Drag the p element back and forth between the two rectangles:</p>
+
+<div class="droptarget">
+  <p draggable="true" id="dragtarget">Drag me!</p>
+</div>
+
+<div class="droptarget"></div>
+
+<p style="clear:both;"><strong>Note:</strong> drag events are not supported in Internet Explorer 8 and earlier versions or Safari 5.1 and earlier versions.</p>
+
+<p id="demo"></p>-->
+
+
+
+    <!--____________________________________________________________-->
+
+    <!--Draggable/axis-->
+    <!--<div id="draggable"></div>-->
+
+    <!--Draggable/autoScroll-->
+    <!--    <div style="width: 200px; height: 200px; overflow: auto">
+        <div style="width: 1000px; height: 1000px;">
+            <div id="draggable"></div>
+        </div>
+    </div>-->
+
+    <!--Draggable/container-->
+    <!--    <div id="container">
+        <div id="draggable"></div>
+    </div>-->
+
+    <!--Draggable/cursorOffset-->
+    <!--<div id="draggable"></div>-->
+
+
+    <!--Draggable/distance-->
+    <!--<div id="draggable"></div>-->
+
+
+    <!--Draggable/holdToDrag-->
+    <!--    <div id="draggable"></div>
+    <p id="alert" style="display:none">dragToHold activated...</p>-->
+
+
+    <!--Draggable/hint-->
+    <!--<div id="draggable"></div>-->
+
+    <!--Draggable/filter-->
+    <!--    <div id="container">
+        <div class="draggable"></div>
+        <div class="static"></div>
+        <div class="static"></div>
+        <div class="static"></div>
+        <div class="draggable"></div>
+    </div>-->
+
+    <!--Draggable/group-->
+    <!--    <div class="orange"></div>
     <div class="orange"></div>
     <div class="purple"></div>
     <div class="purple"></div>
     <div id="orangeArea"></div>
-    <div id="purpleArea"></div>
+    <div id="purpleArea"></div>-->
+
+    <!--Draggable/ignore-->
+    <!--    <div id="container">
+        <input type="text" />
+        <div>Foo</div>
+    </div>-->
+
+    <!--Draggable/drag-->
+    <!--<div id="draggable"></div>-->
+
+
+    <!--Draggable/dragcancel-->
+    <!--<div id="draggable"></div>-->
+
+    <!--Draggable/dragend-->
+    <!--<div id="draggable"></div>-->
+
+    <!--Draggable/dragstart-->
+    <!--<div id="draggable"></div>-->
+
+    <!--Draggable/cancelHold-->
+    <!--    <p>Hold the draggable square to activate it...</p>
+    <div id="draggable"></div>
+    <p><button type="button" class="k-button" id="cancel">Cancel Draggable activated state</button></p>-->
+
+    <!--____________________________________________________________-->
+
+    <!--____________________________________________________________-->
+    <!--DropTarget/Group-->
+    <!--    <div class="orange"></div>
+    <div class="orange"></div>
+    <div class="purple"></div>
+    <div class="purple"></div>
+    <div id="orangeArea"></div>
+    <div id="purpleArea"></div>-->
+
+
+    <!--DropTarget/DestroyGroup-->
+    <!--    <div class="orange"></div>
+    <div class="orangeArea"></div>
+    <div class="orangeArea"></div>-->
+
+    <!--DropTarget/DragEnter-->
+    <!--    <div class="draggable orange"></div>
+    <div class="target orange"></div>-->
+
+    <!--DropTarget/DragLeave-->
+    <!--    <div class="draggable orange"></div>
+    <div class="target orange"></div>-->
+
+
+    <!--DropTarget/Drop-->
+    <!--    <div class="draggable orange"></div>
+    <div class="draggable orange"></div>
+    <div class="draggable orange"></div>
+    <br />
+    <div class="target orange"></div>-->
+
+
+    <!--____________________________________________________________-->
+
+
+
+    <!--____________________________________________________________-->
+    <!--DropTargetArea_Group-->
+    <!--            <p>Area accepts only draggable elements from orange group</p>
+    <div id="area">
+        <div id="leftArea"></div>
+        <div id="rightArea"></div>
+    </div>
+    <div class="orange"></div>
+    <div class="orange"></div>
+    <div class="purple"></div>-->
+
+
+    <!--DropTargetArea_Filter-->
+    <!--    <p>Area accepts only draggable elements from orange group</p>
+    <div id="area">
+        <div id="droptarget" class="orange"></div>
+    </div>
+    <div id="draggable" class="purple"></div>-->
+
+
+    <!--DropTargetArea_DragEnter-->
+    <!--<div id="area">
+  <div id="leftArea"></div>
+  <div id="rightArea"></div>
 </div>
+<div class="purple"></div>
+<div class="purple"></div>-->
+
+
+    <!--DropTargetArea/DragLeave-->
+    <!--    <div id="area">
+        <div id="leftArea"></div>
+        <div id="rightArea"></div>
+    </div>
+    <div class="purple"></div>
+    <div class="purple"></div>-->
+
+
+    <!--DropTargetArea/Drop-->
+    <p>Area accepts only draggable elements from orange group</p>
+    <div id="area1">
+        <div class="droptarget draggable purple" onclick=hello()></div>
+    </div>
+    <div id="area2">
+        <div class="droptarget draggable orange" onclick=bue()></div>
+    </div>
+    <script>
+        function hello() {
+            alert('Hello');
+        }
+        function bue() {
+            alert('Bue');
+        }
+
+    </script>
+
+    <!--<div id="draggable" class="purple"></div>-->
+
+    <!--____________________________________________________________-->
+
+
+    <!--____________________________________________________________-->
+
 
 
 

@@ -1,33 +1,37 @@
 import './scss/style.scss';
 
+/*Draggable*/
+/*import './js/Draggable/axis';*/
+/*import './js/Draggable/autoScroll';*/
+/*import './js/Draggable/container';*/
+/*import './js/Draggable/cursorOffset';*/
+/*import './js/Draggable/distance';*/
+/*import './js/Draggable/hint';*/
+/*import './js/Draggable/filter';*/
+/*import './js/Draggable/group';*/
+/*import './js/Draggable/holdToDrag';*/
+/*import './js/Draggable/cancelHold';*/
+/*import './js/Draggable/ignore';*/
+/*import './js/Draggable/drag';*/
+/*import './js/Draggable/dragcancel';*/
+/*import './js/Draggable/dragend';*/
+/*import './js/Draggable/dragstart';*/
 
-$("#combobox").kendoComboBox({
-    autoWidth: true,
-    dataSource: {
-        data: ["Short item", "An item with really, really long text"]
-    }
-});
 
-$(".orange").kendoDraggable({
-    group: "orangeGroup",
-    hint: function (element) {
-        return element.clone();
-    }
-});
+/*DropTarget*/
+/*import './js/DropTarget/Group';*/
+/*import './js/DropTarget/DestroyGroup';*/
+/*import './js/DropTarget/DragEnter';*/
+/*import './js/DropTarget/DragLeave';*/
+/*import './js/DropTarget/Drop';*/
 
-$(".purple").kendoDraggable({
-    group: "purpleGroup",
-    hint: function (element) {
-        return element.clone();
-    }
-});
 
-$("#orangeArea").kendoDropTarget({ group: "orangeGroup", drop: onDrop });
-$("#purpleArea").kendoDropTarget({ group: "purpleGroup", drop: onDrop });
+/*DropTargetArea*/
+/*import './js/DropTargetArea/Group';*/
+/*import './js/DropTargetArea/Filter';*/
+/*import './js/DropTargetArea/DragEnter';*/
+/*import './js/DropTargetArea/DragLeave';*/
+import './js/DropTargetArea/Drop';
 
-function onDrop(e) {
-    e.draggable.destroy();
-    e.draggable.element.remove();
-}
 
-console.log($('#parent').children().index($('#orangeArea')));
+/*import './js/replace';*/
